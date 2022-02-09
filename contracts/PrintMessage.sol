@@ -26,5 +26,4 @@ contract PrintMessage {
     function getLog(address addr) external view returns(string[] memory) {
         return log[addr];
     }
-
 }
